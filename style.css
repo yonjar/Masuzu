@@ -1,0 +1,411 @@
+/*
+Material Design Theme Masuzu
+
+Copyright (c) 2015 Yonjar Liang
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: "Roboto" , 微软雅黑 ;
+}
+
+
+.clamp-module {
+    height: 120px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.post-title {
+    overflow: hidden;
+    max-height: 1.2em;
+}
+/*.card:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+nav {
+    overflow: visible !important;
+    z-index: auto;
+    will-change: contents !important;
+}
+
+
+.preloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: visible;
+}
+
+.xpreloading {
+    width: 800px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.xpretext {
+    width: 800px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.xprebutton {
+    margin-left: 650px;
+    margin-top: -300px;
+}
+
+.xprecontainer {
+    margin-top: -360px;
+}
+
+.xprecontainer2 {
+    margin-top: -220px;
+    margin-left: 220px;
+}
+
+.man {
+    width: 200px;
+}
+
+.mast {
+     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+.mast h1{
+    font-size: 100px;
+}
+.mast h6{
+    font-size: 18px;
+}
+.preshadow {
+    padding-bottom: 40px;
+}
+
+
+ .card-content {
+    overflow: hidden;
+}
+
+.advantage {
+    padding: 20px;
+    width: 100%;
+    min-height: 100px;
+    transition: all 0.2s ease;
+}
+
+.advantage:hover {
+    opacity: 0.8;
+}
+
+.card .cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s all ease;
+    overflow: hidden;
+}
+
+.card .cover .cover-text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150px;
+    overflow: hidden;
+    text-overflow: clip; /*add max-width */
+    max-width: 100%;
+    
+}
+
+
+.scrollToTop i {
+    font-size: 50px;
+}
+
+img{
+    max-width: 100%;
+    float: left;
+    margin-right: 20px;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    padding: 2vh;
+    font-size: 1vw;
+    z-index: 5;
+    opacity: 0.8;
+}
+#main-content{
+    margin-bottom: 10vh;
+}
+.blog{
+    width: 100%;
+}
+#loading-animation{
+  margin: auto;
+  position: fixed;
+  top: 50vh; left: 0; bottom: 0; right: 0;
+  z-index: 999;
+}
+.post{
+    margin-top: -7vh;
+}
+.card-content p img{
+    width:20vw;
+}
+
+.truncate a{
+    color: #fff;
+}
+
+.head-parallax-container {
+    line-height: 0;
+    min-height: 60vh;
+    color: rgba(255,255,255,.9);
+    position: relative;
+    overflow: hidden;
+}
+.head-parallax-container .section {
+    width: 100%;
+}
+.h-title{
+  border:3px solid white;
+  color:#fff;
+  padding:5px 20px;
+  border-radius:20px;
+  opacity: 0.7;
+}
+h2 a.h-title{
+    font-size: 2.5vw;
+}
+#hitokoto {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 24px;
+    overflow: hidden;
+}
+.hitokoto {
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+h6 a {
+  color:#fff;
+}
+.pagenav {
+    position: relative;
+    bottom: 0.6rem;
+}
+.pagenav ol {
+    list-style: none;
+}
+.blur { 
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+       -moz-filter: blur(5px);
+        -ms-filter: blur(5px);    
+            filter: blur(5px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+.card .card-image {
+  max-height:150px;
+  background-size:cover;
+  overflow:hidden;
+  background-position: center;
+}
+.card .card-image img {
+    min-height: 150px;
+}
+.card .card-image .card-title {
+    z-index: 2;
+}
+.card .card-image .card-title a{
+  color:#fff;
+}
+.cardrandco{
+    width: 100%;
+    min-height: 150px;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+}
+
+/*---滚动条大小--*/
+::-webkit-scrollbar{
+display:none;
+}
+
+.search-2{
+    position: relative;
+    top: 50%;
+}
+.xiaoshi{
+    top: -64px;
+}
+.chuxian{
+    top: 0;
+}
+.nav{transition: top .5s;z-index:5; }
+
+.parallax-container{
+    min-height: 35vh;
+}
+.parallax-container .section {
+    width: 100%;
+}
+.parallax-container {
+     line-height: 0; 
+     height: auto; 
+     color: rgba(255,255,255,.9); 
+}
+.search-nav{
+    position: absolute;
+    right: 0;
+}
+
+/*响应式*/
+/** iPad **/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .post {
+    margin-top: 75px;
+    }
+    .card-content p img {
+    min-width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    }
+    .truncate a {
+    font-size: 5vw;
+    margin: 0 10px;
+    }
+}
+/** iPhone **/
+@media only screen and (min-width: 10px) and (max-width: 767px) {
+    .post {
+    margin-top: 70px;
+    }
+    .card-content p img {
+    width: 100%;
+    float: none;
+    }
+    .truncate a {
+    font-size: 4.5vw;
+    margin: 0 7px;
+    }
+    .cardrandco {
+    min-height: 100px;
+    }
+    .card .card-image {
+    max-height: 100px;
+    }
+}
+/** PC **/
+@media only screen and (min-width: 1025px) and (max-width: 2500px) {
+    .card .card-image .card-title a {
+    font-size: 3vw;
+    }
+}
+
+#search{
+  width:10vw;
+}
+nav ul a {
+    height: 64px !important;
+}
+.ds-avatar a img{
+  float: none;
+  margin-right: 0;
+}
+.side-nav .collapsible li {
+  width: 100%;
+}
+.side-nav li {
+  width: 100%;
+}
+.collapsible-body .collection{
+  margin: 0;
+}
+.collection .collection-item.avatar {
+  border-radius: 0;
+}
+.collection-item.avatar p {
+    padding: 0 3em 0 0;
+}
+.comments-title {
+    font-family: Microsoft Yahei;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #03a9f4;
+    padding: 10px;
+    color: #fff;
+    font-weight: normal;
+    border-radius:10px;
+}
+.label {
+    background-color: #FFFFFF;
+    padding:0 .6em;
+    font-weight: 700;
+    line-height: 1;
+    color: #03A9F4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.nofound404:after{
+    content: "看来你迷路了_(:зゝ∠)_";
+    background-color: #03A9F4;
+    padding:0 .6em;
+    font-weight: 300;
+    line-height: 1;
+    color: #FFFFFF;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0 .25em .25em 0;
+}
+.nofound404:before{
+    content: "< 404 >";
+    background-color: #FFFFFF;
+    padding:0 .6em;
+    font-weight: 700;
+    line-height: 1;
+    color: #03A9F4;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em 0 0 .25em;
+}
+/*load*/
+.preloader-wrapper {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.links.collection{
+  border: none;
+}
